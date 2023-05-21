@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>ECHO FANSITE HOME</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/favicon-removebg.png" />
+  </head>
+  <body>
+    <!--NAV!!!!!-->
+    <div class="container-fluid">
+      <nav
+        class="navbar navbar-expand-lg d-flex align-items-center navbar-dark"
+      >
+        <div class="container-fluid navcolor">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/iconwhite.png" alt="navi" width="60px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto d-flex align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="roster.html"> MPL ROSTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="store.html">STORE</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  VIDEOS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="smalltalksessions.html"
+                      >SMALL TALK SESSIONS</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mpls11.html"
+                      >MPL S11 VLOGS</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mpls10.html"
+                      >MPL S10 VLOGS</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">CONTACT US</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="search: windbreaker"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--content-->
+    <!--carousel-->
+    <div class="container">
+      <div
+        id="shopcarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3500"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#shopcarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#shopcarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#shopcarousel"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#shopcarousel"
+            data-bs-slide-to="3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/merch/banner4.webp"
+              class="img-fluid"
+              alt=" gourmet burger"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/merch/banner3.webp"
+              class="img-fluid"
+              alt="T-bone Steak"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/merch/banner2.webp"
+              class="img-fluid"
+              alt="Lemon Chicken"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/merch/banner1.webp"
+              class="img-fluid"
+              alt="Lemon Chicken"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#shopcarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#shopcarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--cards-->
+    <div class="container">
+      <h1 class="text-center mt-4">Products</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/merch/products/oversizedtee.webp"
+              class="card-img-top"
+              alt="store item"
+            />
+            <div class="card-body text-center align-items-center">
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#item1"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/merch/products/facemask.webp"
+              class="card-img-top"
+              alt="store item"
+            />
+            <div class="card-body text-center align-items-center">
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#item2"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/merch/products/stickerpack.webp"
+              class="card-img-top"
+              alt="store item"
+            />
+            <div class="card-body text-center align-items-center">
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#item3"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/merch/products/echowindbreaker.webp"
+              class="card-img-top"
+              alt="store item"
+            />
+            <div class="card-body text-center align-items-center">
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#item4"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="images/merch/products/officialesportsjersey.webp"
+              class="card-img-top"
+              alt="store item"
+            />
+            <div class="card-body text-center align-items-center">
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#item5"
+                >View</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <h2>
+          Sportswear for All Hardworking Players from ECHOesportsofficial Seller
+          Store
+        </h2>
+        <p>
+          The sporty and bold youth of the modern era is unstoppable. They
+          cannot be contained in just one kind of clothing and fashion trend. To
+          support the emergence of multiple fashion trends worldwide, buy the
+          trendiest clothes and accessories from ECHOesportsofficial Seller
+          Store. Different sportswear and casual wear clothes are available
+          here. The sporty clothing items can be worn while exercising, going to
+          gyms, aerobic classes, jogging and walks, and many other sports games
+          and activities. Sports activities need assistance with good quality
+          sportswear. Casual wear causes a lot of interruption and distraction
+          while playing games and participating in sports. Sportswear outfits
+          include the proper attire for going to gyms, exercising, and walking.
+        </p>
+        <p>
+          The main sports clothing items include jerseys, T-shirts, basic
+          shorts, and windbreaker jackets. Players participating in sports like
+          basketball, baseball, cricket, volleyball, handball, and many other
+          sports can wear Jerseys. Jerseys are a clothing item that is a
+          necessity for every sportsperson. Every sports and game match is
+          incomplete without jerseys, which signify the team they are playing
+          on. Viewers can also wear jerseys and an audience to show their
+          support for their favorite teams. Furthermore, sources of your
+          favorite sports players are also available which look just like the
+          original ones. These jerseys are made from good quality polyester
+          materials and dyes. They are made from breathable materials and enable
+          the sportsman to play comfortably without worrying about sweating.
+          They are absorbent to sweat and decrease the chances of bad body odor.
+        </p>
+      </div>
+    </div>
+    <!--modals-->
+    <!--item1-->
+    <div
+      class="modal fade modal-lg"
+      id="item1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="container-fluid modal-title text-center"
+              id="staticBackdropLabel"
+            >
+              ECHO SQUAD OVERSIZED TEE
+            </h1>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <img
+                src="images/merch/products/teebanner.webp"
+                class="img-fluid mb-4"
+              />
+              <h2 class="text-center">Product details</h2>
+              <p>
+                ECHO SQUAD TEE<br />
+                -MADE OF HIGH-QUALITY MATERIAL<br />
+                -COTTON/POLYESTER<br />
+                -OVERSIZED<br />
+                -EMBROIDERY<br />
+                -SCREENPRINT<br /><br />
+                (OFFICIAL MERCHANDISE OF ECHO PHILIPPINES)
+                <br />
+                #ECHO TOGETHER #ECHOPROUD #ECHOLOUD
+              </p>
+              <div class="row d-flex store-zoom">
+                <div class="col-lg-2">
+                  <a href="images/merch/products/tee/tee1.webp" target="_blank"
+                    ><img
+                      src="images/merch/products/tee/tee1.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="images/merch/products/tee/tee2.webp" target="_blank"
+                    ><img
+                      src="images/merch/products/tee/tee2.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="images/merch/products/tee/tee3.webp" target="_blank"
+                    ><img
+                      src="images/merch/products/tee/tee3.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="images/merch/products/tee/tee4.webp" target="_blank"
+                    ><img
+                      src="images/merch/products/tee/tee4.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="images/merch/products/tee/tee5.webp" target="_blank"
+                    ><img
+                      src="images/merch/products/tee/tee5.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="images/merch/products/tee/tee6.webp" target="_blank"
+                    ><img
+                      src="images/merch/products/tee/tee6.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://www.lazada.com.ph/products/echo-squad-oversized-tee-i2420776566-s11031710850.html?spm=a2o4l.10450891.0.0.63b27c2eRL9SG2&search=store"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="btn btn-store"
+                data-bs-dismiss="modal"
+              >
+                ₱700.00
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 250.000000 202.000000"
+                >
+                  <g
+                    transform="translate(0.000000,202.000000) scale(0.100000,-0.100000)"
+                    fill="white"
+                    stroke="none"
+                  >
+                    <path
+                      d="M530 2013 c-43 -16 -498 -297 -509 -315 -17 -27 -27 -874 -11 -923
+      12 -36 -20 -15 550 -367 683 -423 645 -401 689 -401 47 0 33 -8 730 428 464
+      290 497 312 506 345 6 22 8 195 5 473 l-5 439 -25 20 c-58 47 -485 298 -506
+      298 -13 0 -135 -68 -271 -152 -136 -83 -268 -160 -293 -171 -64 -28 -163 -33
+      -236 -12 -68 19 -126 52 -384 216 -188 118 -213 131 -240 122z m124 -549 c14
+      -5 16 -41 16 -294 0 -253 2 -289 16 -294 9 -3 56 -6 105 -6 l89 0 0 -47 c0
+      -27 -4 -54 -8 -61 -7 -9 -47 -12 -168 -10 l-159 3 -3 345 c-1 190 0 351 3 357
+      5 14 80 18 109 7z m579 -188 c21 -8 46 -21 56 -30 24 -22 30 -20 41 9 8 22 16
+      25 54 25 35 0 48 -5 56 -19 15 -29 14 -483 -2 -499 -16 -16 -95 -15 -105 1 -4
+      6 -6 20 -5 30 4 23 -3 22 -41 -7 -153 -115 -376 15 -377 219 0 79 14 126 53
+      176 72 95 172 130 270 95z m717 -11 c16 -20 6 -72 -23 -112 -12 -17 -71 -89
+      -130 -159 l-108 -129 136 -3 136 -3 -3 -52 -3 -52 -210 0 -210 0 -3 29 c-2 15
+      -1 39 2 51 3 12 64 92 135 176 l128 154 -131 5 -131 5 -3 39 c-6 69 -14 66
+      206 66 165 0 202 -3 212 -15z"
+                    />
+                    <path
+                      d="M1113 1160 c-109 -56 -109 -241 1 -291 52 -24 92 -24 136 0 55 29 80
+      73 80 143 0 33 -7 72 -15 88 -36 69 -129 97 -202 60z"
+                    />
+                  </g>
+                </svg></button
+            ></a>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--item2-->
+    <div
+      class="modal fade modal-lg"
+      id="item2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="container-fluid modal-title text-center"
+              id="staticBackdropLabel"
+            >
+              ECHO E-SPORTS FACE MASK
+            </h1>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <img
+                src="images/merch/products/genericbanner.webp"
+                class="img-fluid mb-4"
+              />
+              <h2 class="text-center">Product details</h2>
+              <p>
+                ECHO E-SPORTS MASK<br />
+                Wear a mask and be safe, made of scuba material with
+                high-quality sublimation print, garterized ear loop. <br />
+                As seen from our MPL players and ECHO fam.<br />
+                <br />
+                #ECHO TOGETHER #ECHOPROUD #ECHOLOUD
+              </p>
+              <div class="row d-flex store-zoom">
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/facemask/facemask1.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/facemask/facemask1.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/facemask/facemask2.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/facemask/facemask2.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/facemask/facemask3.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/facemask/facemask3.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://www.lazada.com.ph/products/echo-e-sports-face-mask-i2325679851-s10553585362.html?spm=a2o4l.10450891.0.0.7a5f7c2epLWzun&search=store"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="btn btn-store"
+                data-bs-dismiss="modal"
+              >
+                ₱120.00
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 250.000000 202.000000"
+                >
+                  <g
+                    transform="translate(0.000000,202.000000) scale(0.100000,-0.100000)"
+                    fill="white"
+                    stroke="none"
+                  >
+                    <path
+                      d="M530 2013 c-43 -16 -498 -297 -509 -315 -17 -27 -27 -874 -11 -923
+      12 -36 -20 -15 550 -367 683 -423 645 -401 689 -401 47 0 33 -8 730 428 464
+      290 497 312 506 345 6 22 8 195 5 473 l-5 439 -25 20 c-58 47 -485 298 -506
+      298 -13 0 -135 -68 -271 -152 -136 -83 -268 -160 -293 -171 -64 -28 -163 -33
+      -236 -12 -68 19 -126 52 -384 216 -188 118 -213 131 -240 122z m124 -549 c14
+      -5 16 -41 16 -294 0 -253 2 -289 16 -294 9 -3 56 -6 105 -6 l89 0 0 -47 c0
+      -27 -4 -54 -8 -61 -7 -9 -47 -12 -168 -10 l-159 3 -3 345 c-1 190 0 351 3 357
+      5 14 80 18 109 7z m579 -188 c21 -8 46 -21 56 -30 24 -22 30 -20 41 9 8 22 16
+      25 54 25 35 0 48 -5 56 -19 15 -29 14 -483 -2 -499 -16 -16 -95 -15 -105 1 -4
+      6 -6 20 -5 30 4 23 -3 22 -41 -7 -153 -115 -376 15 -377 219 0 79 14 126 53
+      176 72 95 172 130 270 95z m717 -11 c16 -20 6 -72 -23 -112 -12 -17 -71 -89
+      -130 -159 l-108 -129 136 -3 136 -3 -3 -52 -3 -52 -210 0 -210 0 -3 29 c-2 15
+      -1 39 2 51 3 12 64 92 135 176 l128 154 -131 5 -131 5 -3 39 c-6 69 -14 66
+      206 66 165 0 202 -3 212 -15z"
+                    />
+                    <path
+                      d="M1113 1160 c-109 -56 -109 -241 1 -291 52 -24 92 -24 136 0 55 29 80
+      73 80 143 0 33 -7 72 -15 88 -36 69 -129 97 -202 60z"
+                    />
+                  </g>
+                </svg></button
+            ></a>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--item3-->
+    <div
+      class="modal fade modal-lg"
+      id="item3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="container-fluid modal-title text-center"
+              id="staticBackdropLabel"
+            >
+              ECHO VINYL STICKER PACK
+            </h1>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <img
+                src="images/merch/products/genericbanner.webp"
+                class="img-fluid mb-4"
+              />
+              <h2 class="text-center">Product details</h2>
+              <p>
+                - Printed on Glossy Vinyl Stickers.<br />
+                - Die-cut.<br />
+                - Sticker size varies from 2-5 inches.<br />
+                - Pack and Sealed<br />
+                <br />
+                What's inside the package:<br />
+                6 piece sticker pack <br />
+                - ECHO Box Logo<br />
+                - Together, Proud, Loud - 2pcs.<br />
+                - ECHO Text - 2pcs.<br />
+                - ECHO Logo <br />
+                <br />
+                *Product Colour May Slightly Vary Due to Photographic Lighting
+                Sources or Your Monitor Settings.<br />
+                #ECHO TOGETHER #ECHOPROUD #ECHOLOUD
+              </p>
+              <div class="row d-flex store-zoom">
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/stickers/stickers1.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/stickers/stickers1.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/stickers/stickers2.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/stickers/stickers2.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/stickers/stickers3.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/stickers/stickers3.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://www.lazada.com.ph/products/echo-vinyl-sticker-pack-i2294597689-s10376669609.html?channelLpJumpArgs=&clickTrackInfo=query%253A%253Bnid%253A2294597689%253Bsrc%253AlazadaInShopSrp%253Brn%253A75d86fd4ed3b8463c766a609f2d2521a%253Bregion%253Aph%253Bsku%253A2294597689_PH%253Bprice%253A100%253Bclient%253Adesktop%253Bsupplier_id%253A500170575039%253Bpromotion_biz%253A%253Basc_category_id%253A18802%253Bitem_id%253A2294597689%253Bsku_id%253A10376669609%253Bshop_id%253A1909264&fastshipping=0&freeshipping=0&fs_ab=2&fuse_fs=0&lang=en&location=Rizal&price=1E%202&priceCompare=&ratingscore=5.0&request_id=75d86fd4ed3b8463c766a609f2d2521a&review=6&sale=31&search=1&source=search&spm=a2o4l.store_product.list.i5.6ce21271iHHTY0&stock=0%27"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="btn btn-store"
+                data-bs-dismiss="modal"
+              >
+                ₱100.00
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 250.000000 202.000000"
+                >
+                  <g
+                    transform="translate(0.000000,202.000000) scale(0.100000,-0.100000)"
+                    fill="white"
+                    stroke="none"
+                  >
+                    <path
+                      d="M530 2013 c-43 -16 -498 -297 -509 -315 -17 -27 -27 -874 -11 -923
+      12 -36 -20 -15 550 -367 683 -423 645 -401 689 -401 47 0 33 -8 730 428 464
+      290 497 312 506 345 6 22 8 195 5 473 l-5 439 -25 20 c-58 47 -485 298 -506
+      298 -13 0 -135 -68 -271 -152 -136 -83 -268 -160 -293 -171 -64 -28 -163 -33
+      -236 -12 -68 19 -126 52 -384 216 -188 118 -213 131 -240 122z m124 -549 c14
+      -5 16 -41 16 -294 0 -253 2 -289 16 -294 9 -3 56 -6 105 -6 l89 0 0 -47 c0
+      -27 -4 -54 -8 -61 -7 -9 -47 -12 -168 -10 l-159 3 -3 345 c-1 190 0 351 3 357
+      5 14 80 18 109 7z m579 -188 c21 -8 46 -21 56 -30 24 -22 30 -20 41 9 8 22 16
+      25 54 25 35 0 48 -5 56 -19 15 -29 14 -483 -2 -499 -16 -16 -95 -15 -105 1 -4
+      6 -6 20 -5 30 4 23 -3 22 -41 -7 -153 -115 -376 15 -377 219 0 79 14 126 53
+      176 72 95 172 130 270 95z m717 -11 c16 -20 6 -72 -23 -112 -12 -17 -71 -89
+      -130 -159 l-108 -129 136 -3 136 -3 -3 -52 -3 -52 -210 0 -210 0 -3 29 c-2 15
+      -1 39 2 51 3 12 64 92 135 176 l128 154 -131 5 -131 5 -3 39 c-6 69 -14 66
+      206 66 165 0 202 -3 212 -15z"
+                    />
+                    <path
+                      d="M1113 1160 c-109 -56 -109 -241 1 -291 52 -24 92 -24 136 0 55 29 80
+      73 80 143 0 33 -7 72 -15 88 -36 69 -129 97 -202 60z"
+                    />
+                  </g>
+                </svg></button
+            ></a>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--item4-->
+    <div
+      class="modal fade modal-lg"
+      id="item4"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="container-fluid modal-title text-center"
+              id="staticBackdropLabel"
+            >
+              ECHO Windbreaker
+            </h1>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <img
+                src="images/merch/products/windbreakerbanner.webp"
+                class="img-fluid mb-4"
+              />
+              <h2 class="text-center">Product details</h2>
+              <p>
+                This windbreaker is made of lightweight material for your lazy
+                morning walk or day-to-day outerwear needs, built for gamers and
+                people on the go. <br />
+                <br />
+                As seen on ECHO Official Players on MPL Season 8. <br />
+                <br />
+                Specifications:<br />
+                Diamond Nylon Fabric<br />
+                Full zip with drawcord-adjustable hood<br />
+                Pockets: front (2), sleeve (1)<br />
+                Garterized cuffs<br />
+                <br />
+                #ECHO TOGETHER #ECHOPROUD #ECHOLOUD
+              </p>
+              <div class="row d-flex store-zoom">
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/windbreaker/wb1.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/windbreaker/wb1.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/windbreaker/wb2.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/windbreaker/wb2.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/windbreaker/wb3.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/windbreaker/wb3.webp"
+                      class="img-fluid m-1"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://www.lazada.com.ph/products/echo-windbreaker-i2365682101.html?spm=a2o4l.store_product.list.11.6ce212710nUmG3"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="btn btn-store"
+                data-bs-dismiss="modal"
+              >
+                ₱1700.00
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 250.000000 202.000000"
+                >
+                  <g
+                    transform="translate(0.000000,202.000000) scale(0.100000,-0.100000)"
+                    fill="white"
+                    stroke="none"
+                  >
+                    <path
+                      d="M530 2013 c-43 -16 -498 -297 -509 -315 -17 -27 -27 -874 -11 -923
+        12 -36 -20 -15 550 -367 683 -423 645 -401 689 -401 47 0 33 -8 730 428 464
+        290 497 312 506 345 6 22 8 195 5 473 l-5 439 -25 20 c-58 47 -485 298 -506
+        298 -13 0 -135 -68 -271 -152 -136 -83 -268 -160 -293 -171 -64 -28 -163 -33
+        -236 -12 -68 19 -126 52 -384 216 -188 118 -213 131 -240 122z m124 -549 c14
+        -5 16 -41 16 -294 0 -253 2 -289 16 -294 9 -3 56 -6 105 -6 l89 0 0 -47 c0
+        -27 -4 -54 -8 -61 -7 -9 -47 -12 -168 -10 l-159 3 -3 345 c-1 190 0 351 3 357
+        5 14 80 18 109 7z m579 -188 c21 -8 46 -21 56 -30 24 -22 30 -20 41 9 8 22 16
+        25 54 25 35 0 48 -5 56 -19 15 -29 14 -483 -2 -499 -16 -16 -95 -15 -105 1 -4
+        6 -6 20 -5 30 4 23 -3 22 -41 -7 -153 -115 -376 15 -377 219 0 79 14 126 53
+        176 72 95 172 130 270 95z m717 -11 c16 -20 6 -72 -23 -112 -12 -17 -71 -89
+        -130 -159 l-108 -129 136 -3 136 -3 -3 -52 -3 -52 -210 0 -210 0 -3 29 c-2 15
+        -1 39 2 51 3 12 64 92 135 176 l128 154 -131 5 -131 5 -3 39 c-6 69 -14 66
+        206 66 165 0 202 -3 212 -15z"
+                    />
+                    <path
+                      d="M1113 1160 c-109 -56 -109 -241 1 -291 52 -24 92 -24 136 0 55 29 80
+        73 80 143 0 33 -7 72 -15 88 -36 69 -129 97 -202 60z"
+                    />
+                  </g>
+                </svg></button
+            ></a>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--item5-->
+    <div
+      class="modal fade modal-lg"
+      id="item5"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="container-fluid modal-title text-center"
+              id="staticBackdropLabel"
+            >
+              ECHO E-SPORTS OFFICIAL JERSEY
+            </h1>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <img
+                src="images/merch/products/genericbanner.webp"
+                class="img-fluid mb-4"
+              />
+              <h2 class="text-center">Product details</h2>
+              <p>
+                THE OFFICIAL JERSEY OF ECHO E-SPORTS FOR MPL SEASON 8<br />
+                - AS SEEN ON MPL WORN BY OUR PLAYERS<br />
+                - DRI-FIT POLYESTER<br />
+                - FULL SUBLIMATION PRINT<br />
+                - PREMIUM QUALITY<br />
+                -NO IGN CUSTOMIZATION <br />
+                <br />
+                #ECHO TOGETHER #ECHOPROUD #ECHOLOUD
+              </p>
+              <div class="row d-flex store-zoom">
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/jersey/jersey1.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/jersey/jersey1.webp"
+                      class="img-fluid m-1 storeimagewhite"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/jersey/jersey2.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/jersey/jersey2.webp"
+                      class="img-fluid m-1 storeimagewhite"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/jersey/jersey3.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/jersey/jersey3.webp"
+                      class="img-fluid m-1 storeimagewhite"
+                  /></a>
+                </div>
+                <div class="col-lg-2">
+                  <a
+                    href="images/merch/products/jersey/jersey4.webp"
+                    target="_blank"
+                    ><img
+                      src="images/merch/products/jersey/jersey4.webp"
+                      class="img-fluid m-1 storeimagewhite"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://www.lazada.com.ph/products/echo-e-sports-official-jersey-i2325770310-s10551796093.html?"
+              target="_blank"
+            >
+              <button
+                type="button"
+                class="btn btn-store"
+                data-bs-dismiss="modal"
+              >
+                ₱1200.00
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 250.000000 202.000000"
+                >
+                  <g
+                    transform="translate(0.000000,202.000000) scale(0.100000,-0.100000)"
+                    fill="white"
+                    stroke="none"
+                  >
+                    <path
+                      d="M530 2013 c-43 -16 -498 -297 -509 -315 -17 -27 -27 -874 -11 -923
+      12 -36 -20 -15 550 -367 683 -423 645 -401 689 -401 47 0 33 -8 730 428 464
+      290 497 312 506 345 6 22 8 195 5 473 l-5 439 -25 20 c-58 47 -485 298 -506
+      298 -13 0 -135 -68 -271 -152 -136 -83 -268 -160 -293 -171 -64 -28 -163 -33
+      -236 -12 -68 19 -126 52 -384 216 -188 118 -213 131 -240 122z m124 -549 c14
+      -5 16 -41 16 -294 0 -253 2 -289 16 -294 9 -3 56 -6 105 -6 l89 0 0 -47 c0
+      -27 -4 -54 -8 -61 -7 -9 -47 -12 -168 -10 l-159 3 -3 345 c-1 190 0 351 3 357
+      5 14 80 18 109 7z m579 -188 c21 -8 46 -21 56 -30 24 -22 30 -20 41 9 8 22 16
+      25 54 25 35 0 48 -5 56 -19 15 -29 14 -483 -2 -499 -16 -16 -95 -15 -105 1 -4
+      6 -6 20 -5 30 4 23 -3 22 -41 -7 -153 -115 -376 15 -377 219 0 79 14 126 53
+      176 72 95 172 130 270 95z m717 -11 c16 -20 6 -72 -23 -112 -12 -17 -71 -89
+      -130 -159 l-108 -129 136 -3 136 -3 -3 -52 -3 -52 -210 0 -210 0 -3 29 c-2 15
+      -1 39 2 51 3 12 64 92 135 176 l128 154 -131 5 -131 5 -3 39 c-6 69 -14 66
+      206 66 165 0 202 -3 212 -15z"
+                    />
+                    <path
+                      d="M1113 1160 c-109 -56 -109 -241 1 -291 52 -24 92 -24 136 0 55 29 80
+      73 80 143 0 33 -7 72 -15 88 -36 69 -129 97 -202 60z"
+                    />
+                  </g>
+                </svg></button
+            ></a>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <!--footer-->
+    <div class="footer">
+      <div class="container-fluid mb-4">
+        <div class="row">
+          <hr />
+          <div class="col-lg-3 text-center">
+            <span
+              ><img
+                src="images/iconwhite.png"
+                class="img-fluid mt-4"
+                width="30%" /><br
+            /></span>
+            <span
+              >ECHO is a professional esports team based in the Philippines.<br />
+            </span>
+          </div>
+          <div class="col-lg-3 text-center">
+            <h4 class="mt-4">Social Media Links</h4>
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://www.facebook.com/echophilippines/"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="white"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/echophilippines"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="white"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                  />
+                </svg>
+              </a>
+              <a href="https://twitter.com/echophilippines" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="white"
+                  class="bi bi-twitter"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.40 6.40 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                  /></svg
+              ></a>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://www.youtube.com/@ECHOPhilippines"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="white"
+                  class="bi bi-youtube"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.tiktok.com/@echophilippines" target="_blank">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  fill="white"
+                  class="bi bi-tiktok"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.lazada.com.ph/shop/echoesportsofficial"
+                target="_blank"
+              >
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="40"
+                  width="40"
+                  viewBox="0 0 250.000000 202.000000"
+                >
+                  <g
+                    transform="translate(0.000000,202.000000) scale(0.100000,-0.100000)"
+                    fill="white"
+                    stroke="none"
+                  >
+                    <path
+                      d="M530 2013 c-43 -16 -498 -297 -509 -315 -17 -27 -27 -874 -11 -923
+          12 -36 -20 -15 550 -367 683 -423 645 -401 689 -401 47 0 33 -8 730 428 464
+          290 497 312 506 345 6 22 8 195 5 473 l-5 439 -25 20 c-58 47 -485 298 -506
+          298 -13 0 -135 -68 -271 -152 -136 -83 -268 -160 -293 -171 -64 -28 -163 -33
+          -236 -12 -68 19 -126 52 -384 216 -188 118 -213 131 -240 122z m124 -549 c14
+          -5 16 -41 16 -294 0 -253 2 -289 16 -294 9 -3 56 -6 105 -6 l89 0 0 -47 c0
+          -27 -4 -54 -8 -61 -7 -9 -47 -12 -168 -10 l-159 3 -3 345 c-1 190 0 351 3 357
+          5 14 80 18 109 7z m579 -188 c21 -8 46 -21 56 -30 24 -22 30 -20 41 9 8 22 16
+          25 54 25 35 0 48 -5 56 -19 15 -29 14 -483 -2 -499 -16 -16 -95 -15 -105 1 -4
+          6 -6 20 -5 30 4 23 -3 22 -41 -7 -153 -115 -376 15 -377 219 0 79 14 126 53
+          176 72 95 172 130 270 95z m717 -11 c16 -20 6 -72 -23 -112 -12 -17 -71 -89
+          -130 -159 l-108 -129 136 -3 136 -3 -3 -52 -3 -52 -210 0 -210 0 -3 29 c-2 15
+          -1 39 2 51 3 12 64 92 135 176 l128 154 -131 5 -131 5 -3 39 c-6 69 -14 66
+          206 66 165 0 202 -3 212 -15z"
+                    />
+                    <path
+                      d="M1113 1160 c-109 -56 -109 -241 1 -291 52 -24 92 -24 136 0 55 29 80
+          73 80 143 0 33 -7 72 -15 88 -36 69 -129 97 -202 60z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 text-center">
+            <h4 class="mt-4">Sponsors</h4>
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="40"
+              height="40"
+              viewBox="-200.008 -199.727 512 512"
+              enable-background="new -200.008 -199.727 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <g>
+                    <path
+                      id="路径_1_"
+                      fill="#FF6900"
+                      d="M258.626-146.231c-48.304-48.118-117.759-53.496-202.634-53.496
+                  c-84.982,0-154.542,5.44-202.826,53.688c-48.277,48.228-53.174,117.676-53.174,202.561c0,84.899,4.897,154.368,53.194,202.613
+                  c48.281,48.255,117.833,53.139,202.806,53.139c84.974,0,154.514-4.884,202.795-53.139
+                  c48.294-48.254,53.205-117.714,53.205-202.613C311.992-28.472,307.028-97.995,258.626-146.231L258.626-146.231z"
+                    />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path
+                      id="形状结合"
+                      fill="#FFFFFF"
+                      d="M204.546-41.122c1.759,0,3.223,1.417,3.223,3.161v189.386
+                  c0,1.715-1.464,3.139-3.223,3.139H163.05c-1.781,0-3.228-1.424-3.228-3.139V-37.961c0-1.743,1.446-3.161,3.228-3.161H204.546z
+                   M24.468-41.122c31.303,0,64.033,1.435,80.176,17.589c15.871,15.897,17.59,47.549,17.656,78.286v96.671
+                  c0,1.715-1.446,3.139-3.219,3.139h-41.49c-1.777,0-3.229-1.424-3.229-3.139V53.09c-0.044-17.167-1.031-34.81-9.884-43.692
+                  c-7.62-7.641-21.839-9.391-36.625-9.754h-75.21c-1.764,0-3.208,1.419-3.208,3.136v148.645c0,1.715-1.462,3.139-3.237,3.139
+                  h-41.516c-1.774,0-3.201-1.424-3.201-3.139V-37.961c0-1.743,1.426-3.161,3.201-3.161H24.468z M33.755,34.305
+                  c1.766,0,3.201,1.413,3.201,3.143v113.977c0,1.715-1.436,3.139-3.201,3.139H-9.829c-1.792,0-3.228-1.424-3.228-3.139V37.448
+                  c0-1.73,1.436-3.143,3.228-3.143H33.755z"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <br />
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              height="40.000000px"
+              viewBox="0 0 556.000000 209.000000"
+              preserveAspectRatio="xMidYMid meet"
+              class="bgwhite"
+            >
+              <g
+                transform="translate(0.000000,209.000000) scale(0.100000,-0.100000)"
+                fill="#000000"
+                stroke="none"
+              >
+                <path
+                  d="M881 1770 c-24 -11 -59 -20 -77 -20 -51 0 -105 -32 -163 -97 -91
+-102 -157 -263 -285 -694 -50 -170 -57 -139 66 -326 70 -107 84 -123 108 -123
+15 0 35 9 45 20 10 11 21 17 25 15 4 -3 15 -36 25 -74 l17 -69 67 -36 c155
+-81 310 -88 477 -19 24 10 44 20 44 23 0 3 -21 22 -48 42 -208 159 -411 496
+-400 664 3 42 7 51 36 71 51 34 132 61 252 85 l109 21 29 -31 c71 -76 152 -35
+152 77 0 31 -6 43 -38 68 -24 20 -45 50 -61 89 -61 152 -147 270 -224 309 -61
+30 -97 31 -156 5z m177 -171 c45 -44 83 -130 85 -193 2 -44 20 -34 -163 -91
+-155 -48 -339 -126 -345 -146 -8 -23 11 -86 29 -96 7 -5 18 -32 24 -62 21 -91
+92 -239 176 -366 84 -127 121 -199 111 -215 -10 -16 -115 -10 -170 9 -68 24
+-80 48 -105 221 -25 177 -43 247 -69 274 l-20 20 -15 -35 c-8 -19 -27 -77 -42
+-129 -15 -52 -31 -99 -35 -103 -3 -5 -28 26 -55 68 l-47 77 31 160 c32 162 61
+248 133 392 94 192 195 269 292 225 19 -9 31 -7 63 10 55 30 76 26 122 -20z"
+                />
+                <path
+                  d="M4607 1273 c-4 -3 -7 -51 -7 -105 l0 -98 45 0 45 0 0 105 0 105 -38
+0 c-21 0 -42 -3 -45 -7z"
+                />
+                <path
+                  d="M1750 1195 c0 -41 -3 -75 -7 -75 -5 0 -17 7 -27 15 -12 9 -42 15 -76
+15 -111 0 -190 -83 -190 -201 0 -70 36 -145 85 -178 49 -33 129 -40 180 -15
+28 13 40 15 43 6 2 -7 25 -12 58 -12 l54 0 0 260 0 260 -60 0 -60 0 0 -75z
+m-19 -184 c77 -78 -17 -201 -114 -149 -35 18 -46 40 -47 86 0 59 33 92 90 92
+33 0 48 -6 71 -29z"
+                />
+                <path
+                  d="M3492 1228 l3 -43 58 -3 57 -3 0 46 0 45 -61 0 -60 0 3 -42z"
+                />
+                <path
+                  d="M4200 1201 c0 -65 -10 -95 -25 -71 -3 5 -24 14 -47 21 -49 13 -115
+-1 -160 -32 -71 -51 -96 -188 -50 -276 45 -86 160 -127 241 -85 33 18 40 19
+45 6 4 -11 19 -14 58 -12 l53 3 3 258 2 257 -60 0 -60 0 0 -69z m-50 -166 c36
+-19 50 -43 50 -88 0 -72 -74 -116 -138 -83 -17 9 -36 25 -42 35 -25 47 -2 117
+45 137 39 17 50 17 85 -1z"
+                />
+                <path
+                  d="M2296 1148 c-129 -36 -180 -230 -89 -339 55 -64 158 -87 220 -49 28
+17 33 17 41 4 6 -11 22 -14 63 -12 l54 3 3 193 2 192 -59 0 c-33 0 -63 -4 -66
+-10 -4 -6 -14 -4 -28 5 -31 20 -95 26 -141 13z m119 -113 c95 -46 57 -185 -51
+-185 -39 0 -84 51 -84 95 0 46 13 71 48 89 35 19 47 19 87 1z"
+                />
+                <path
+                  d="M5035 1149 c-60 -19 -95 -65 -95 -125 0 -52 29 -80 119 -113 66 -24
+85 -46 57 -66 -20 -15 -55 -8 -63 11 -4 10 -24 14 -64 14 -32 0 -59 -2 -59 -5
+0 -22 33 -76 56 -92 94 -67 240 -21 259 80 11 59 -9 95 -69 123 -28 13 -58 24
+-66 24 -25 0 -60 29 -54 45 8 20 51 19 62 -1 6 -11 22 -14 63 -12 48 3 54 5
+51 23 -4 29 -35 68 -63 82 -36 18 -100 24 -134 12z"
+                />
+                <path
+                  d="M2896 1013 c26 -70 56 -157 68 -193 l23 -65 55 -3 56 -3 22 58 c12
+32 44 120 71 196 l49 138 -62 -3 -62 -3 -31 -102 c-17 -56 -34 -105 -37 -108
+-4 -4 -22 42 -40 101 l-34 109 -62 3 -61 3 45 -128z"
+                />
+                <path
+                  d="M3492 948 l3 -193 58 -3 57 -3 0 196 0 195 -60 0 -60 0 2 -192z"
+                />
+                <path
+                  d="M965 924 c-22 -7 -41 -14 -42 -14 -14 -1 5 -20 40 -41 66 -42 121
+-44 195 -9 34 16 62 32 62 35 0 17 -76 36 -119 30 -26 -3 -58 -2 -72 3 -17 7
+-37 6 -64 -4z"
+                />
+                <path
+                  d="M3525 596 c-21 -32 -7 -61 41 -81 28 -11 35 -19 32 -37 -3 -20 -8
+-23 -45 -21 -43 2 -57 -9 -27 -21 49 -19 94 8 94 57 0 21 -9 31 -40 47 -53 27
+-56 60 -5 60 19 0 35 5 35 10 0 6 -16 10 -35 10 -26 0 -39 -6 -50 -24z"
+                />
+                <path
+                  d="M3927 613 c-16 -26 -67 -167 -64 -177 2 -6 11 6 20 27 14 33 20 37
+51 37 31 0 36 -4 46 -35 12 -37 30 -48 29 -17 0 9 -13 51 -28 92 -27 70 -43
+92 -54 73z m28 -93 c-8 -13 -45 -13 -45 -1 0 5 5 22 11 38 l11 28 14 -28 c8
+-15 12 -32 9 -37z"
+                />
+                <path
+                  d="M4280 525 l0 -95 44 0 c25 0 48 5 51 10 4 6 -8 10 -29 10 l-36 0 0
+85 c0 69 -3 85 -15 85 -12 0 -15 -17 -15 -95z"
+                />
+                <path
+                  d="M4635 595 c-19 -18 -25 -35 -25 -70 0 -59 32 -95 84 -95 55 0 89 35
+90 94 1 41 -3 51 -27 72 -38 32 -90 32 -122 -1z m104 -9 c18 -21 24 -77 12
+-108 -9 -24 -16 -28 -50 -28 -30 0 -43 5 -51 19 -11 22 -14 90 -4 115 8 20 77
+22 93 2z"
+                />
+                <path
+                  d="M5010 524 c0 -61 4 -93 10 -89 6 3 10 35 10 71 l0 65 62 -70 c34 -39
+66 -71 70 -71 4 0 8 43 8 95 0 57 -4 95 -10 95 -6 0 -10 -26 -10 -58 0 -32 -3
+-61 -6 -64 -3 -3 -31 22 -62 57 -31 35 -60 64 -64 64 -5 1 -8 -42 -8 -95z"
+                />
+                <path
+                  d="M1928 503 c244 -2 640 -2 880 0 240 1 41 2 -443 2 -484 0 -681 -1
+-437 -2z"
+                />
+              </g>
+            </svg>
+          </div>
+
+          <div class="col-lg-4 text-justify text-center">
+            <h4 class="mt-4">Join The Echo Orcas' Newsletter:</h4>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-auto"
+                type="email"
+                placeholder="rainydaze@echo.ph"
+                aria-label="email"
+              />
+              <button class="btn btn-outline-light" type="submit">JOIN</button>
+            </form>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
