@@ -31,8 +31,7 @@ body {
 .row-content {
   margin: 0px;
 }
-
-svg {
+.nav svg {
   margin: 3px;
 }
 .footer a:hover {
@@ -60,6 +59,7 @@ svg {
 
 a.active {
   color: gold !important;
+  background-color: rgb(21, 5, 50) !important;
 }
 
 .accordion-button {
