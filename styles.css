@@ -41,7 +41,7 @@ svg {
 .footer a svg:hover {
   fill: #5539cc;
 }
-.footer a svg g:hover {
+.footer a svg:hover g {
   fill: #5539cc;
 }
 .card {
@@ -57,6 +57,7 @@ svg {
 .card:hover .imgtwo {
   display: inline;
 }
+
 a.active {
   color: gold !important;
 }
@@ -86,9 +87,22 @@ p {
   color: white !important;
 }
 
+.btn-store:hover {
+  background-color: white !important;
+  color: rgb(238, 77, 45) !important;
+  outline: rgb(238, 77, 45) !important;
+}
+.btn-store:hover svg g {
+  fill: rgb(238, 77, 45);
+}
 .btn-primary {
   background-color: rgb(86, 56, 206) !important;
   color: white !important;
+}
+.btn-primary:hover {
+  background-color: white !important;
+  color: rgb(86, 56, 206) !important;
+  outline: rgb(86, 56, 206) !important;
 }
 
 .store-zoom img:hover {
