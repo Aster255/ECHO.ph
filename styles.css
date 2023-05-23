@@ -61,6 +61,9 @@ a.active {
   color: gold !important;
   background-color: rgb(21, 5, 50) !important;
 }
+li.active a.dropdown-toggle {
+  color: gold !important;
+}
 
 .accordion-button {
   background-color: rgb(88, 39, 147) !important;
@@ -137,7 +140,7 @@ ul li {
   text-transform: uppercase !important;
 }
 .tpl {
-  color: #5539cc;
+  color: #9d9bb7;
 }
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
