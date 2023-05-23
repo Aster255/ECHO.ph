@@ -2,6 +2,8 @@
 
 ECHO Philippines Website designed as part of a requirement in Kodego
 
+![plot](./images/responsive.PNG)
+
 Disclaimer:
 
 The following legal disclaimer governs your use of the esports website ("ECHO.ph") and sets forth the terms and conditions that you must adhere to. By accessing and using the website, you acknowledge and accept these terms. If you do not agree with any part of this disclaimer, please refrain from using the website.
