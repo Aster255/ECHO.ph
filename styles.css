@@ -142,6 +142,9 @@ ul li {
 .tpl {
   color: #9d9bb7;
 }
+.inquiry {
+  color: rgb(108, 119, 129);
+}
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   html,
