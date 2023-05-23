@@ -90,11 +90,11 @@ p {
   color: white !important;
 }
 .btn {
-  transition: 0.7s;
+  transition: 0.4s;
 }
 svg,
 g {
-  transition: 0.7s;
+  transition: 0.4s;
 }
 
 .btn-store:hover {
